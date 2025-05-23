@@ -7,5 +7,7 @@ public class DeteccionDeColisiones : MonoBehaviour
     void OnCollisionEnter(Collision collision)
     {
         Debug.Log("Contacto");
+        Destroy(collision.gameObject);
+        Destroy(gameObject);
     }
 }
