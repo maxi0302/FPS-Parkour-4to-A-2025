@@ -76,7 +76,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5166ba37bd4d45142975fa908ac59022, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  socrePoint: 0
+  price: -10
+  dineroManager: {fileID: 0}
 --- !u!1001 &5158004970829954127
 PrefabInstance:
   m_ObjectHideFlags: 0
