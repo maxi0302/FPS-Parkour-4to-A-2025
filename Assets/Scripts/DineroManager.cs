@@ -9,7 +9,7 @@ public class DineroManager : MonoBehaviour
 
     void Start(){
         uiManager = FindObjectOfType<UIManager>();
-        uiManager.UpdateUI(playerMoney);
+        uiManager.UpdateTXTMoney(playerMoney);
     }
 
     public void UpdateMoney(float amount){
@@ -17,7 +17,7 @@ public class DineroManager : MonoBehaviour
             //impedir compra
         } else {
             playerMoney += amount;
-            uiManager.UpdateUI(playerMoney);
+            uiManager.UpdateTXTMoney(playerMoney);
         }
 
     }
